@@ -13,7 +13,32 @@ I hope in the future I can get it to:
 - [] Be available as an ES Module
 
 # Install & usage
-Coming soon.
+Install with either
+````bash
+npm i @liamjcooper/keys.js
+````
+or...
+```bash
+yarn add @liamjcooper/keys.js
+```
+
+And then to use, you can either
+```js
+const { frequency } = require("@liamjcooper/keys.js");
+```
+or...
+```js
+const frequency = require("@liamjcooper/keys.js/frequency");
+```
+
+# Documentation
+Currently, you only have the choice of converting a semitone difference or MIDI note to a frequency as a float.
+
+To do either conversion:
+```js
+frequency.forSemitoneFromRoot(3) // 523.251... (3 notes up from A4)
+frequency.forMidiNote(66) // 369.994... (3 notes down from A4)
+```
 
 # Notes
 All PRs welcome! Don't be afraid to say hi if this has helped you in any way, all feedback is also welcome 🙂
