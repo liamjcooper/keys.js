@@ -10,6 +10,7 @@ I hope in the future I can get it to:
 - [] Convert a musical note to semitone difference from root
 - [] Convert a MIDI note to a musical note
 - [] And any other conversions in between
+- [] Be available as an ES Module
 
 # Install & usage
 Coming soon.
