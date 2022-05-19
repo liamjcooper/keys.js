@@ -4,13 +4,13 @@ A helper library written in Javascript to help with the development of music-ori
 - [x] Calculate a frequency based on a MIDI note number (not piano note)
 
 I hope in the future I can get it to:
-- [] Take into account different tuning frequencies for its base calculation
-- [] Calculate a frequency based on a musical note and octave i.e. F#4, D2
-- [] Allow detuning by cents to alter frequency calculation bias
-- [] Convert a musical note to semitone difference from root
-- [] Convert a MIDI note to a musical note
-- [] And any other conversions in between
-- [] Be available as an ES Module
+- [ ] Take into account different tuning frequencies for its base calculation
+- [ ] Calculate a frequency based on a musical note and octave i.e. F#4, D2
+- [ ] Allow detuning by cents to alter frequency calculation bias
+- [ ] Convert a musical note to semitone difference from root
+- [ ] Convert a MIDI note to a musical note
+- [ ] And any other conversions in between
+- [ ] Be available as an ES Module
 
 # Install & usage
 Install with either
