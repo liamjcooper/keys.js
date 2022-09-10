@@ -10,7 +10,7 @@ I hope in the future I can get it to:
 - [ ] Convert a musical note to semitone difference from root
 - [ ] Convert a MIDI note to a musical note
 - [ ] And any other conversions in between
-- [ ] Be available as an ES Module
+- [x] Be available as an ES Module
 
 # Install & usage
 Install with either
@@ -28,7 +28,7 @@ const { frequency } = require("@liamjcooper/keys.js");
 ```
 or...
 ```js
-const frequency = require("@liamjcooper/keys.js/frequency");
+const frequency = require("@liamjcooper/keys.js/dist/frequency");
 ```
 
 # Documentation
