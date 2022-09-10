@@ -1,8 +1,8 @@
-function forSemitoneFromRoot(semitonesFromRoot) {
+function forSemitoneFromRoot(semitonesFromRoot: number) {
   return 440 * Math.pow(2, semitonesFromRoot / 12);
 }
 
-function forMidiNote(midiNote) {
+function forMidiNote(midiNote: number) {
   return 440 * Math.pow(2, (midiNote - 69) / 12);
 }
 
